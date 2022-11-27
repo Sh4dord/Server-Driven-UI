@@ -1,0 +1,86 @@
+{
+  "screens": [
+    {
+      "name": "screen1",
+      "components": [
+        {
+          "type": "text",
+          "text": "Welcome"
+        },
+        {
+          "name": "first_name",
+          "type": "text_input",
+          "placeholder": "Enter your first name"
+        },
+        {
+          "type": "button",
+          "text": "Next",
+          "target": "screen2"
+        }
+      ]
+    },
+    {
+      "name": "screen2",
+      "components": [
+        {
+          "type": "text",
+          "text": "Welcome ${first_name}"
+        },
+        {
+          "name": "last_name",
+          "type": "text_input",
+          "placeholder": "Enter your last name"
+        },
+        {
+          "type": "button",
+          "text": "Next",
+          "target": "screen3"
+        }
+      ]
+    },
+    {
+      "name": "screen3",
+      "components": [
+        {
+          "type": "text",
+          "text": "Please enter your date of birth"
+        },
+        {
+          "name": "birth_date",
+          "type": "date"
+        },
+        {
+          "type": "button",
+          "text": "Next",
+          "target": "summary_screen"
+        }
+      ]
+    },
+    {
+      "name": "summary_screen",
+      "components": [
+        {
+          "type": "text",
+          "text": "Summary"
+        },
+        {
+          "type": "text",
+          "text": "Your first name is ${first_name}"
+        },
+        {
+          "type": "text",
+          "text": "Your last name is ${last_name}"
+        },
+        {
+          "type": "text",
+          "text": "Your date of birth is ${birth_date}"
+        },
+        {
+          "type": "button",
+          "text": "Restart",
+          "target": "screen1"
+        }
+      ]
+    }
+  ]
+}
