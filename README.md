@@ -1,6 +1,5 @@
-# cashbee_test
+# Server Driver UI
 
-Test for Cashbee
 
 ## How to Use
 
@@ -8,7 +7,7 @@ Test for Cashbee
 
 Download or clone this repo by using the link below:
 ```
-https://github.com/Sh4dord/cashbee_test.git
+https://github.com/Sh4dord/Server-Driven-UI.git
 ```
 
 **Step 2:**
